@@ -7,7 +7,14 @@
  * 1. Corrige la altura de línea en todos los navegadores.
  * 2. Impide que se ajuste el tamaño de la fuente tras los cambios de orientación en iOS.
  */
-
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
